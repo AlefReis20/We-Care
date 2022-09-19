@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: radial-gradient(#9ad2ab,#58acac);
+}
+
 header {
     margin-top: 44px;
     margin-bottom: 144px;
@@ -15,7 +19,7 @@ header {
         font-weight: 600;
         font-size: 24px;
         line-height: 29px;
-        color: #989D9C;
+        color: #FFF;
         cursor: pointer;
         margin-right: 23px;
         text-decoration: none;
@@ -32,6 +36,7 @@ header {
         line-height: 29px;
         color: #FFFFFF;
         cursor: pointer;
+    
 
     }
 
@@ -51,21 +56,21 @@ header {
         font-weight: 900px;
         font-size: 100px;
         line-height: 122px;
-        color: #515151;
+        color: #FFF;
     }
 
     h2 {
         font-weight: 500;
         font-size: 58px;
         line-height: 71px;
-        color: #515151;
+        color: #FFF;
     }
 
     p {
         font-weight: 400;
         font-size: 24px;
         line-height: 29px;
-        color: #848484;
+        color: #FFF;
         width: 515px;
         margin-top: 32px;
         margin-bottom: 65px;
@@ -83,6 +88,7 @@ header {
         line-height: 34px;
         cursor: pointer;
         color: #000000;
+        margin-bottom: 15px;
     }
 
     @media screen and (max-width: 800px) {
